@@ -1,0 +1,111 @@
+/************************************************* Header ********************************************************************/
+
+
+#Header + main{margin-top:63px;}
+/********** Main Banner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;left:0;  bottom:220px;right:0;}
+.MainBanner .carousel-caption h1{text-shadow:12px 0px 22px rgba(0,0,0,.55);} 
+.MainBanner .carousel-caption .logo {position: absolute;bottom: 310px;left: 48px;}
+
+/********** Permanent ***********************************************************************************************/
+#Welcome {background:url(../images/wel-bg.png) no-repeat center center; background-size:cover; min-height:900px;}
+#Welcome .pdng{padding-left:50px;} #Welcome .bg-light{padding:60px 50px;}
+#Welcome .card-title{font-size:20px;} #Welcome .card{border:none !important; border-radius:0px !important;} #Welcome .card-body{padding:20px !important;} #Welcome .card{box-shadow: 0px 0px 15px rgba(0,0,0,.15);} 
+#Welcome .bg-light{ position: relative;top: -35px; background:#fff !important;}
+
+#Introduction {background:url(../images/intro-bg.png) no-repeat center center; background-size:cover; min-height:1098px;}
+#Introduction .custom-height {height: 260px !important;}
+#Introduction .img-bor{border:10px solid #fff; box-shadow: 0px 0px 25px rgba(0,0,0,.35);} #Introduction .h3{font-size:30px;}
+
+#News {background:url(../images/latest-news-bg.png) no-repeat center center; background-size:cover; min-height:734px;}
+#News img {box-shadow: 0px 0px 25px rgba(0,0,0,.15);} 
+
+#TestiArea {background:url(../images/testi-bg.png) no-repeat center center; background-size:cover; min-height:352px;}
+#Testimonials .Name{font-family: 'Fira Sans', sans-serif;font-weight:700; font-size:12px;letter-spacing: .2em;}
+#Testimonials q:before,#Testimonials:before {content: open-quote; position:absolute; left:-20px; top:-80px;}
+#Testimonials q:after,#Testimonials:after {content: close-quote; position:absolute; right:0px; top:-80px; }
+#Testimonials q:before,#Testimonials q:after,#Testimonials:before,#Testimonials:after {color:#d6d6d6 !important; font-size:140.11px; font-weight:400; font-family: Engravers MT;}
+#Testimonials .carousel-inner{width:83%; margin-left:80px; font-size:24px;line-height: 1.8;}
+
+#Contact {background:url(../images/contact-bg.png) no-repeat center center; background-size:cover; min-height:433px;}
+#Contact .bg-white {box-shadow: 0px 0px 25px rgba(0,0,0,.15);} #Contact .text-danger:hover{color:#000 !important;}
+
+#Footer .list-inline a img:hover{opacity:60%;}#Footer .list-inline-item:not(:last-child) {margin-right:9px;}#Footer .CopyText{font-size:11px;}
+
+.map {-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%);}
+   
+
+.List {padding:0; margin:0 0 -5px 0; list-style-type:none;}
+.List li{background:url(../images/tick.png) no-repeat 0.1em 0.63em; padding:5px 0 20px 40px; margin:0px;}
+.last-side {margin-left: -14px;}
+
+
+
+/*************************************************************************************************************/
+
+@media (min-width:1200px) {
+.gutter-sm {margin-left:-22px!important;margin-right:-22px!important;}
+.gutter-sm div[class^="col"]{padding-left:22px!important;padding-right:22px!important;}	
+
+.gutter-lg {margin-left:-25px!important;margin-right:-25px!important;}
+.gutter-lg div[class^="col"]{padding-left:25px!important;padding-right:25px!important;}
+
+}
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(255,255,255,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:9999;}
+.Logo img {height:60px; width:180px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:40px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Homebnr .carousel-item img {
+    height: 737px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+
+}
+
+.container{max-width:1170px;}
+.container-fluid{max-width:1330px;} 
+
+@media (min-width: 767.98px) {
+
+
+}
+@media (min-width: 576px) { 
+	
+}
+
+@media (min-width: 1920px) {.MainBanner .carousel-caption .logo {left: 375px !important;}
+
+}
+
+@media (min-width: 1600px) {.MainBanner .carousel-caption .logo {left: 220px;}	}
+
+
+@media (min-width: 1359.98px) and (max-width: 1559.98px) {
+
+}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {#Welcome h2{font-size:35px;} .MainBanner .carousel-caption h1{font-size:45px;} #Welcome {min-height: 850px !important;} #Welcome .card-title {font-size: 17px;} #Introduction {min-height: 975px !important;} #News {min-height: 634px;} #News h3{font-size:30px;} #TestiArea h3{font-size:30px;}#Contact .fs-25 {font-size: 18px !important;} #Contact .fs-18 {font-size: 16px !important;} #Introduction .h3 {font-size: 25px;}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {#Header {position:static;} #Header{padding:10px 0px;} #Header + main{margin-top:0px;} .MainBanner .carousel-caption h1{font-size:35px;} .MainBanner .carousel-caption{bottom:0px; top:0px;} .Logo img{width:25%;} #Welcome h2{font-size:25px;} #Welcome .pdng {padding-left: 0px;} #Welcome .bg-light {padding: 40px 50px;} #Welcome .card-title {font-size: 14px;} #Welcome {min-height: 800px !important;} #Introduction .h3 {font-size: 22px;} #Introduction .custom-height {height: 355px !important;} #Introduction {min-height: 930px !important;} #News h3{font-size:25px;} #News h4{font-size:16px;} #News {min-height: 634px;} #TestiArea h3{font-size:30px;} #Testimonials .carousel-inner {font-size: 20px !important;} #Testimonials q::after, #Testimonials::after {top: 0px;} #Contact .fs-25 {font-size: 18px !important;}
+ }
+@media (max-width: 767.98px) {#Header {position:static;} #Header{padding:10px 0px;} #Header + main{margin-top:0px;} #Header{padding:10px 0px;} .Logo img{width:25%;} .MainBanner .carousel-caption{bottom:0px; top:0px;} .MainBanner .carousel-caption h1{font-size:30px;}
+#Welcome .bg-light {position: static;} #Welcome h2{font-size:25px;} #Welcome .pdng {padding-left: 0px;} #Welcome .bg-light {padding: 50px;} #Welcome .card-title {font-size: 16px;} #Introduction .custom-height {height: auto !important;} #News h3{font-size:25px;} #TestiArea h3{font-size:25px;}
+#Testimonials .carousel-inner {font-size: 20px !important;} #Testimonials q::before, #Testimonials q::after, #Testimonials::before, #Testimonials::after {font-size: 100px;} #Testimonials q::before, #Testimonials::before {left: 0px;} #Contact .fs-25 {font-size: 17px !important;}
+#Testimonials .carousel-inner {width: 83%;margin-left: 0px;margin-left: auto !important;margin-right: auto !important;}
+}
+@media (max-width: 576px){  .Logo img {width: 50% !important; padding-bottom: 45px;}
+.Homebnr .carousel-item img {height: 200px;width: 100%;-o-object-fit: cover;object-fit: cover;-o-object-position: center;object-position: center;}
+#Welcome .bg-light {padding: 20px !important;}
+
+}
+
+@media (max-width: 479px) {}
+@media (max-width: 320px) {}
